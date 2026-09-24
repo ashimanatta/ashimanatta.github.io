@@ -220,7 +220,11 @@ nav ul li a:hover::after {
     height: auto;
     object-fit: cover;
 }
-
+.project-card video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 .project-card-content {
     padding: 30px;
     flex-grow: 1;
